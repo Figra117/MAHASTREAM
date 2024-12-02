@@ -1,0 +1,101 @@
+html, body {
+    height: 100%; /* Mengatur tinggi html dan body menjadi 100% */
+    margin: 0; /* Menghapus margin default */
+    padding: 0; /* Menghapus padding default */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bb.jpeg'); /* Ganti dengan URL gambar Anda */
+    background-size: cover; /* Menyesuaikan gambar agar memenuhi seluruh latar belakang */
+    background-position: center; /* Memposisikan gambar di tengah */
+
+}
+
+
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+#genre-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Menghapus margin untuk daftar film */
+    flex-grow: 1; /* Memungkinkan daftar film mengisi ruang yang tersisa */
+    overflow-y: auto; /* Menambahkan scroll jika daftar terlalu panjang */
+}
+
+li {
+    padding: 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+li:hover {
+    background: #787878;
+}
+
+.genre-button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.genre-button:hover {
+    background-color: #218838;
+}
+
+#detail-video {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+#detail-section {
+    text-align: center;
+    margin-top: 20px;
+}

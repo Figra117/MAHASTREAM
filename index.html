@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Nonton Film</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <button id="show-movies">Daftar Film</button>
+        </nav>
+        
+        <div id="movies-section">
+            <h1>MAHASTREAM</h1>
+            <input type="text" id="search-input" placeholder="Cari film..." />
+            <div id="genre-buttons"></div> <!-- Tempat untuk tombol genre -->
+            <ul id="movie-list"></ul>
+        </div>
+
+        <div id="detail-section" class="hidden">
+            <h1 id="detail-title"></h1>
+            <p id="detail-synopsis"></p>
+            <p id="detail-genre"></p>
+            <video id="detail-video" controls style="display: none;"></video>
+            <button id="back-to-movies">Kembali ke Daftar Film</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
